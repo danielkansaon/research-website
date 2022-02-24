@@ -47,8 +47,14 @@
                    "oana_goga" => array("Oana Goga", "http://lig-membres.imag.fr/gogao/"),
                    "elissa_redmiles" => array("Elissa M. Redmiles", "https://www.cs.umd.edu/~eredmiles/"),
                    "hugo_sousa" => array("Hugo Sousa", "https://homepages.dcc.ufmg.br/~hugosousa/"),
-                   "kiran_garimella" => array("Kiran Garimella", "https://users.ics.aalto.fi/kiran/")
-                   
+                   "kiran_garimella" => array("Kiran Garimella", "https://users.ics.aalto.fi/kiran/"),
+                   "daniel_kansaon" => array("<strong>Daniel Kansaon</strong>", "https://homepages.dcc.ufmg.br/~daniel.kansaon/"),
+                   "michele_brandao" => array("Michele A. Brandão", "#"),
+                   "breno_matos" => array("Breno Matos", "#"), 
+                   "matheus_barbosa" => array("Mateus Barbosa", "#"),
+                   "kaio_sa" => array("Kaio Sá", "#"),
+                   "vitor_mafra" => array("Vitor Mafra", "#"),
+                   "saulo_pinto" => array("Saulo A. Pinto", "#")          
                    );
     
     function parse_author_to_html($author){
@@ -82,18 +88,22 @@
   <head>
     <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />-->
     <meta charset="utf-8">
+    <meta name="description" content="Resercher PhD Student in Computer Science at UFMG.">
+    <meta name="keywords" content="Kansaon, Data Science, Computer Science, Sentimenty Analysis, Opinion Mining, Mineração de opinião, UFMG">
+    <meta name="author" content="Daniel Kansaon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="util/css/bootstrap.min.css">
     <script src="util/js/jquery.min.js"></script>
     <script src="util/js/popper.min.js"></script>
     <script src="util/js/bootstrap.min.js"></script>
-    <title>Johnnatan Messias</title>
+    <title>Daniel Kansaon | Resercher PhD Student</title>
+    <link rel="shortcut icon" href="util/images/favicon-32-32.png" type="image/x-icon"/>
   </head>
 
   <body>
     <div class="container">
       <div id="logo"></div>
-      <h1>Johnnatan Messias</h1>
+      <h1>Daniel Kansaon</h1>
       <div id="accordion">
         <div class="card">
           <div class="card-header bg-secondary">
@@ -105,23 +115,28 @@
             <div class="card-body">
               <div class="row">
                 <div class="col-md-3">
-                  <img src="util/images/profile.jpg" alt="Johnnatan Messias." class="rounded" height="120px">
+                  <img src="util/images/profile.png" alt="Daniel Kansaon." class="rounded" height="200px">
                 </div>
                 <div class="col-md-9">
-                  I am a Ph.D. student at the Max Planck Institute for Software Systems (<a href="https://www.mpi-sws.org/" target="_blank">MPI-SWS</a>) in the <a href="http://socialnetworks.mpi-sws.org" target="_blank">Social Computing Research</a> 
-                  group. I am advised by <a href="http://www.mpi-sws.org/~gummadi/" target="_blank">Dr. Krishna P. Gummadi</a>.
+                  I am a Ph.D. student at the Universidade Federal de Minas Gerais (<a href="https://ppgcc.dcc.ufmg.br/en/" target="_blank">UFMG</a>) in the <a href="https://garnet.dcc.ufmg.br/dcc/?q=pt-br/node/2728" target="_blank">Social Computing Research</a> 
+                  group. I am advised by <a href="https://homepages.dcc.ufmg.br/~fabricio/" target="_blank">Dr. Fabrício Benevenuto</a>.
                   <br>
                   <br>
-I completed my Master's degree in Computer Science at the Universidade Federal de Minas Gerais (UFMG) with <a href="https://homepages.dcc.ufmg.br/~fabricio/" target="_blank">Dr.
-Fabrício Benevenuto</a> as my advisor. During my MSc, I also held two research intern positions at MPI-SWS in Saarbrücken, Germany. I studied Computer Science at Eötvös Loránd
-                  University (ELTE) in Budapest, Hungary, in 2013/2014 during my exchange program (Science Without Borders
-                  - CAPES). I completed my undergraduate degree in Computer Science at the Universidade Federal de Ouro Preto (UFOP) in 2015.
+                  My research involves areas from computer science related to data science, including natural language processing, machine learning and data mining. 
+                  I am currently working on projects related to misinformation, hate speech and systems with societal impact. 
+
+                  I hold my Master's degree in Computer Science at the Universidade Federal de Minas Gerais (UFMG) in 2020. 
+                  During my Master's, I worked with a focus on text classification and opinion mining.
+
+                  Also, I completed my undergraduate degree in Information System at the Pontifícia Universidade Católica de Minas Gerias (PUC-MG) in 2017.
+                  In addition, I specialized in Distributed Software Architecture and worked for 3 years as a software engineer.
+                  
                   <br>
                   <br>
-                  <u>Interests</u>: Blockchains, Data Analysis, Sentiment Analysis, Social Networks.
+                  <u>Interests</u>: Data Science, Social Networks, Data Analysis, Sentiment Analysis and Natural Language Processing.
                   <br>
                   <br>
-                  <u>My complete name</u>: Johnnatan Messias Peixoto Afonso.
+                  <u>My complete name</u>: Daniel Pimentel Kansaon.
                   <!-- <br>Therefore, my family name is <u>Afonso</u>. However, I sign only <u>Johnnatan Messias</u> on my works. -->
                   <br>
                   <!-- <br> I have Erdos Number 4! Check it out:
@@ -149,10 +164,10 @@ Fabrício Benevenuto</a> as my advisor. During my MSc, I also held two research 
           </div>
           <div id="publications" data-parent="#accordion" class="collapse">
             <div class="card-body">
-              <h3>International Journal Publications </h3>
+              <h3>Journal Publications </h3>
 
               <ul class="list-inline">
-                <li>Search Bias Quantification: Investigating Political Bias in Social Media and Web Search
+                <li>Análise de Algoritmos de Classificação para Detecção de Emoções em Tweets em Português Brasileiro
                   <ul>
                     <li>
                       <?= get_authors(array("juhi_kulshrestha","motahhare_eslami","johnnatan_messias","bilal_zafar","saptarshi_ghosh","krishna_gummadi","karrie_karahalios")) ?>
@@ -196,150 +211,6 @@ Fabrício Benevenuto</a> as my advisor. During my MSc, I also held two research 
                   signal the bias in the search results to make the users more aware of them. </div>
               </ul>
 
-              <ul class="list-inline">
-                <li>Managing Longitudinal Exposure of Socially Shared Data on the Twitter Social Media
-                  <ul>
-                    <li>
-                      <?= get_authors(array("mainack_mondal","johnnatan_messias","saptarshi_ghosh","krishna_gummadi","aniket_kate")) ?>
-                    </li>
-                    <li>International Journal of Advances in Engineering Sciences and Applied Mathematics (Special Issue on Data
-                      Sciences), Springer, 2017.</li>
-                    <li>
-                      <a href="#managing_longitudinal_exposure" data-toggle="collapse">
-                        <span class="badge badge-dark">Abstract</span>
-                      </a>
-                      <a href="http://rdcu.be/ARJP" target="_blank">
-                        <span class="badge badge-info">Link</span>
-                      </a>
-                      <a href="http://twitter-app.mpi-sws.org/footprint" target="_blank">
-                        <span class="badge badge-primary">System</span>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <div id="managing_longitudinal_exposure" class="collapse">
-                  <b>Abstract:</b> On most online social media sites today, user-generated data remains accessible to allowed
-                  viewers unless and until the data owner changes her privacy preferences. In this paper, we present a large-scale
-                  measurement study focused on understanding how users control the longitudinal exposure of their publicly
-                  shared data on social media sites. Our study, using data from Twitter, finds that a significant fraction
-                  of users withdraw a surprisingly large percentage of old publicly shared data—more than 28% of 6-year old
-                  public posts (tweets) on Twitter are not accessible today. The inaccessible tweets are either selectively
-                  deleted by users or withdrawn by users when they delete or make their accounts private. We also found a
-                  significant problem with the current exposure control mechanisms—even when a user deletes her tweets or
-                  her account, the current mechanisms leave traces of residual activity, i.e., tweets from other users sent
-                  as replies to those deleted tweets or accounts still remain accessible. We show that using this residual
-                  information one can recover significant information about the deleted tweets or even characteristics of
-                  the deleted accounts. To the best of our knowledge, we are the first to study the information leakage resulting
-                  from residual activities of deleted tweets and accounts. Finally, we propose two exposure control mechanisms
-                  that eliminates information leakage via residual activities. One of our mechanisms optimize for allowing
-                  meaningful social interactions with user posts and another mechanism aims to control longitudinal exposure
-                  via anonymization . We discuss the merits and drawbacks of our proposed mechanisms compared to existing
-                  mechanisms.</div>
-              </ul>
-              <ul class="list-inline">
-                <li>An Evaluation of Sentiment Analysis for Mobile Devices
-                  <ul>
-                    <li>
-                      <?= get_authors(array("johnnatan_messias","joao_p_diniz","elias_soares","miller_ferreira","matheus_araujo","lucas_bastos","manoel_miranda","fabricio_benevenuto")) ?>
-                    </li>
-                    <li>In Springer Nature Social Network Analysis and Mining. Volume 7, Issue 1, 2017. </li>
-                    <li>
-                      <a href="#mobile_snam" data-toggle="collapse">
-                        <span class="badge badge-dark">Abstract</span>
-                      </a>
-                      <a href="http://rdcu.be/rZtC" target="_blank">
-                        <span class="badge badge-info">Link</span>
-                      </a>
-                      <a href="bibtex/messias_mobile_snam2017.bib" target="_blank">
-                        <span class="badge badge-secondary">BibTeX</span>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <div id="mobile_snam" class="collapse">
-                  <b>Abstract:</b> Sentiment Analysis has become a key tool to extract knowledge from data containing opinions
-                  and sentiments, particularly, data from online social systems. With the increasing use of smartphones to
-                  access social media platforms, a new wave of applications that explore sentiment analysis in the mobile
-                  environment is beginning to emerge. However, there are various existing sentiment analysis methods and
-                  it is unclear which of them are deployable in the mobile environment. In this paper, we provide the first
-                  of a kind study in which we compare the performance of 14 sentence-level sentiment analysis methods in
-                  the mobile environment. To do that, we adapted these methods to run on Android OS and then we measure their
-                  performance in terms of memory, CPU, and battery consumption. Our findings unveil methods that require
-                  almost no adaptations and run relatively fast as well as methods that could not be deployed due to excessive
-                  use of memory. We hope our effort provides a guide to developers and researchers interested in exploring
-                  sentiment analysis as part of a mobile application and can help new applications to be executed without
-                  the dependency of a server-side API. We also share the Android API that implements all the 14 sentiment
-                  analysis used in this paper. </div>
-              </ul>
-              <ul class="list-inline">
-                <li>Longitudinal Privacy Management in Social Media: The Need for Better Controls
-                  <ul>
-                    <li>
-                      <?= get_authors(array("mainack_mondal","johnnatan_messias","saptarshi_ghosh","krishna_gummadi","aniket_kate")) ?>
-                    </li>
-                    <li>IEEE Internet Computing (Special Issue on Usable Privacy & Security). Volume 21, Issue 3, May-June, 2017.
-                      </li>
-                    <li>
-                      <a href="#longitudinal_privacy" data-toggle="collapse">
-                        <span class="badge badge-dark">Abstract</span>
-                      </a>
-                      <a href="pdf/mondal_ic17.pdf" target="_blanck">
-                        <span class="badge badge-danger">PDF</span>
-                      </a>
-                      <a href="http://ieeexplore.ieee.org/document/7927870/" target="_blanck">
-                        <span class="badge badge-info">Link</span>
-                      </a>
-                      <a href="bibtex/mondal_ic_2017.bib" target="_blank">
-                        <span class="badge badge-secondary">BibTeX</span>
-                      </a>
-                      <a href="http://twitter-app.mpi-sws.org/footprint" target="_blank">
-                        <span class="badge badge-primary">System</span>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <div id="longitudinal_privacy" class="collapse">
-                  <b>Abstract:</b> This large-scale measurement study of Twitter focuses on understanding how users control
-                  the longitudinal exposure of their publicly shared social data — that is, their tweets — and the limitations
-                  of currently used control mechanisms. Our study finds that, while Twitter users widely employ longitudinal
-                  exposure control mechanisms, they face two fundamental problems. First, even when users delete their data
-                  or account, the current mechanisms leave signficant traces of residual activity. Second, these mechanisms
-                  single out withdrawn tweets or accounts, attracting undesirable attention to them. To address both problems,
-                  an inactivity- based withdrawal scheme for improved longitudinal exposure control is explored. </div>
-              </ul>
-              <ul class="list-inline">
-                <li>You followed my bot! Transforming robots into influential users in Twitter
-                  <ul>
-                    <li>
-                      <?= get_authors(array("johnnatan_messias","lucas_schmidt","ricardo_rabelo","fabricio_benevenuto")) ?>
-                    </li>
-                    <li>First Monday. Volume 18, Issue 7, July, 2013. </li>
-                    <li>
-                      <a href="#bot_scarina" data-toggle="collapse">
-                        <span class="badge badge-dark">Abstract</span>
-                      </a>
-                      <a href="http://firstmonday.org/ojs/index.php/fm/article/view/4217/3700" target="_blank">
-                        <span class="badge badge-info">Link</span>
-                      </a>
-                      <a href="http://homepages.dcc.ufmg.br/~fabricio/download/firstmonday13.bib" target="_blank">
-                        <span class="badge badge-secondary">BibTeX</span>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <div id="bot_scarina" class="collapse">
-                  <b>Abstract:</b> Systems like Klout and Twitalyzer were developed as an attempt to measure the influence of
-                  users within social networks. Although the algorithms used by these systems are not public known, they
-                  have been widely used to rank users according to their influence, especially in the Twitter social network.
-                  As media companies might base their viral marketing campaigns on influence scores, users might attempt
-                  to boost their influence scores with simple mechanisms like following unknown users to be followed back
-                  or even interacting with those who reciprocate these actions. In this paper, we investigate if widely used
-                  influence scores are vulnerable and easy to manipulate. Our approach consists of developing Twitter bot
-                  accounts able to interact with real users to verify strategies that can increase their influence scores
-                  according to different systems. Our results show that it is possible to become influential using very simple
-                  strategies, suggesting that these systems should review their influence score algorithms to avoid accounting
-                  with automatic activity. </div>
-              </ul>
 
               <h3>Conference Publications </h3>
 
@@ -1046,7 +917,7 @@ Fabrício Benevenuto</a> as my advisor. During my MSc, I also held two research 
             </div>
           </div>
         </div>
-        <div class="card">
+        <!-- <div class="card">
           <div class="card-header bg-secondary">
             <a class="collapsed card-link text-white" data-toggle="collapse" href="#press_coverage">
               <strong>Press Coverage</strong>
@@ -1107,7 +978,7 @@ Fabrício Benevenuto</a> as my advisor. During my MSc, I also held two research 
               </ul>
             </div>
           </div>
-        </div>
+        </div> -->
         
         <div class="card">
           <div class="card-header bg-secondary">
@@ -1119,39 +990,36 @@ Fabrício Benevenuto</a> as my advisor. During my MSc, I also held two research 
             <div class="card-body">
               <ul>
                 <li>
-                  <a href="https://www.eleicoessemfake.dcc.ufmg.br/" target="_blank">
+                  <a href="http://www.eleicoes-sem-fake.dcc.ufmg.br/" target="_blank">
                     <strong>Eleições sem Fake:</strong>
                   </a> Many systems to help with the Fake news problem.
                   <br>
                 </li>
                 <li>
-                  <a href="http://twitter-app.mpi-sws.org/who-makes-trends/" target="_blank">
-                    <strong>Who Makes Trends?</strong>
-                  </a>: Demographic of Trend Promoters is the distribution (or combination) of demographic groups (such as middle-aged
-                  white men, young asian women, adolescent black men) in the crowd promoting (or posting about) a topic
-                  <strong>before</strong> the topic becomes Trending on Twitter. Here, we are only considering US based Twitter users
-                  whose tweets on the trends appear in the 1% random sample distributed by Twitter.
+                  <a href="http://www.whatsapp-monitor.dcc.ufmg.br/" target="_blank">
+                    <strong>WhatsApp Monitor:</strong>
+                  </a> This system shows the most shared images, videos, audios, messages, URLs in more than 500 WhatsApp public groups.
                   <br>
                 </li>
                 <li>
-                  <a href="http://twitter-app.mpi-sws.org/search-political-bias-of-users/" target="_blank">
-                    <strong>Search Political Leaning of Twitter Users</strong>
-                  </a>: You can login with your Twitter credentials, to see the political leaning (between democratic and republican)
-                  inferred for you. You can also search for other Twitter users and check their political leanings.</li>
+                  <a href="http://www.monitor-de-telegram.dcc.ufmg.br/" target="_blank">
+                    <strong>Telegram Monitor:</strong>
+                  </a> This system shows the most shared content on Telegram public groups.
+                  <br>
+                </li>
                 <li>
-                  <a href="http://twitter-app.mpi-sws.org/footprint/" target="_blank">
-                    <strong>Secondary Digital Footprint</strong>
-                  </a>: Twitter is social, people converse with you by mentioning your username in their tweets (e.g., while
-                  replying to your tweet or giving a shout-out to you ). These conversations are your secondary digital footprint
-                  , even if you delete your account or delete selected tweets, this secondary footprint is not deleted automatically
-                  and leaks information about you. Check what your secondary digital footprint reveals about you and your
-                  content.</li>
+                  <a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/indonesia/reports.php/" target="_blank">
+                    <strong>WhatsApp Reports:</strong>
+                  </a> Reports and Analyses through the lens of WhatsApp.
+                  <br>
+                </li>
+                
               </ul>
             </div>
           </div>
         </div>
 
-        <div class="card">
+        <!-- <div class="card">
           <div class="card-header bg-secondary">
             <a class="collapsed card-link text-white" data-toggle="collapse" href="#awards">
               <strong>Awards</strong>
@@ -1172,7 +1040,7 @@ Fabrício Benevenuto</a> as my advisor. During my MSc, I also held two research 
               </ul>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <div class="card">
           <div class="card-header bg-secondary">
@@ -1183,19 +1051,22 @@ Fabrício Benevenuto</a> as my advisor. During my MSc, I also held two research 
           <div id="contact" data-parent="#accordion" class="collapse">
             <div class="card-body">
               <address>
-                <p>
-                  <span class="glyphicon glyphicon-map-marker"></span> Saarbrücken, Saarland, Germany</p>
+                <strong>Federal University of Minas Gerais (UFMG)</strong>
+                </br>
+                <span>Avenue: Presidente Antônio Carlos - 4201 - 6499</span>
+                </br>
+                <span>Belo Horizonte, Minas Gerias - Brazil<span>
             
               </address>
               <address>
-                <strong>Johnnatan Messias</strong>
-                <br> johnme [AT] mpi-sws [DOT] org
+                <strong>Daniel Kansaon</strong>
+                <br> 
               </address>
               <div class="social">
                 <div class="container text-center">
-                  <a href="http://lattes.cnpq.br/9861859712648217" target="_blank" border="0">
+                  <a href="http://lattes.cnpq.br/0273544672957360" target="_blank" border="0">
                     <img src="images/lattes.png" alt="Link para Lattes" title="Latte's Curriculum" width="48" height="48" class="logo"> </a>
-                  <a href="https://www.linkedin.com/in/johnnatan-messias/" target="_black">
+                  <a href="https://www.linkedin.com/in/daniel-pimentel-1810a9104/" target="_black">
                     <img src="images/linkedin.png" alt="Link para Linkedin" title="Linkedin" width="48" height="48" class="logo"> </a>
                 </div>
               </div>
@@ -1208,12 +1079,11 @@ Fabrício Benevenuto</a> as my advisor. During my MSc, I also held two research 
       <div id="footer">
         <div class="container text-center">
           <p>
-            <a href="https://dblp.uni-trier.de/pers/hd/m/Messias:Johnnatan" target="_blank">DBLP</a> |
-            <a href="https://scholar.google.com/citations?user=EoGEeFAAAAAJ" target="_blank">Google Scholar</a> |
-            <a href="https://www.linkedin.com/in/johnnatan-messias/" target="_blank">LinkedIn</a> |
-            <a href="http://lattes.cnpq.br/9861859712648217" target="_blank">Lattes</a> |
-            <a href="https://github.com/johnnatan-messias/" target="_blank">GitHub</a>  |
-            <a href="bitcoin:1DtCxi6q7KZyxAjsVh3RgW6sYBSGZqzuQ8">BTC</a>
+            <!-- <a href="" target="_blank">DBLP</a> | -->
+            <!-- <a href="" target="_blank">Google Scholar</a> | -->
+            <a href="https://www.linkedin.com/in/daniel-pimentel-1810a9104/" target="_blank">LinkedIn</a> |
+            <a href="http://lattes.cnpq.br/0273544672957360" target="_blank">Lattes</a> |
+            <a href="https://github.com/danielkansaon/" target="_blank">GitHub</a>
           </p>
         </div>
       </div>
@@ -1222,7 +1092,7 @@ Fabrício Benevenuto</a> as my advisor. During my MSc, I also held two research 
   </body>
   <footer>
         <p class="text-center">
-        <small>&copy; Copyright by Max Planck Institute for Software Systems 2018. All rights reserved. <a href="https://imprint.mpi-klsb.mpg.de/sws/people/johnme">Imprint</a> / <a href="https://data-protection.mpi-klsb.mpg.de/sws/people/johnme">Data Protection</a></small>
+      
         </p>
 </footer>
   </html>

@@ -49,7 +49,7 @@ $names = array(
   "hugo_sousa" => array("Hugo Sousa", "https://homepages.dcc.ufmg.br/~hugosousa/"),
   "kiran_garimella" => array("Kiran Garimella", "https://users.ics.aalto.fi/kiran/"),
   "daniel_kansaon" => array("<strong>Daniel Kansaon</strong>", "https://homepages.dcc.ufmg.br/~daniel.kansaon/"),
-  "michele_brandao" => array("Michele A. Brandão", "#"),
+  "michele_brandao" => array("Michele A. Brandão", "https://scholar.google.com.br/citations?user=F5Bh-ZQAAAAJ&hl=en"),
   "breno_matos" => array("Breno Matos", "#"),
   "matheus_barbosa" => array("Mateus Barbosa", "#"),
   "kaio_sa" => array("Kaio Sá", "#"),
@@ -93,15 +93,15 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
 <head>
   <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />-->
   <meta charset="utf-8">
-  <meta name="description" content="Resercher PhD Student in Computer Science at UFMG.">
-  <meta name="keywords" content="Daniel Kansaon, Data Science, Computer Science, Sentiment Analysis, Opinion Mining, Mineração de Opinião, UFMG">
+  <meta name="description" content="Daniel Kansaon is a PhD researcher in Computer Science at UFMG. Currently working on research related to data science, sentiment analysis and nlp.">
+  <meta name="keywords" content="Daniel Kansaon, Data Science, Computer Science, Sentiment Analysis, Opinion Mining, Mineração de Opinião, Comparative Opinion, Opinião Comparativa, UFMG">
   <meta name="author" content="Daniel Kansaon">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="util/css/bootstrap.css">
   <script src="util/js/jquery.min.js"></script>
   <script src="util/js/popper.min.js"></script>
   <script src="util/js/bootstrap.min.js"></script>
-  <title>Daniel Kansaon | Resercher PhD Student</title>
+  <title>Daniel Kansaon | Resercher PhD Student at UFMG</title>
   <link rel="shortcut icon" href="util/images/favicon-32-32.png" type="image/x-icon" />
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -158,7 +158,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
                   <?php endif; ?> -->
 
               <div class="col-md-9">
-                I am a Ph.D. student at the Universidade Federal de Minas Gerais, Brazil (<a href="https://ppgcc.dcc.ufmg.br/en/" target="_blank">UFMG</a>) in the <a href="https://garnet.dcc.ufmg.br/dcc/?q=pt-br/node/2728" target="_blank">Social Computing Research</a>
+                I am a Ph.D. student at the Universidade Federal de Minas Gerais, Brazil (<a href="https://ppgcc.dcc.ufmg.br/en/" target="_blank">UFMG</a>) in the <a href="https://garnet.dcc.ufmg.br/dcc/?q=en/node/2728" target="_blank">Social Computing Research</a>
                 group. I am advised by <a href="https://homepages.dcc.ufmg.br/~fabricio/" target="_blank">Dr. Fabrício Benevenuto</a>.
                 <br>
                 <br>
@@ -173,19 +173,15 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
 
                 <br>
                 <br>
-                <u>Interests</u>: Data Science, Social Networks, Data Analysis, Sentiment Analysis and Natural Language Processing.
+                <u>Interests</u>: Data Science, Complex Networks, Sentiment Analysis and Natural Language Processing.
                 <br>
                 <br>
-                <u>My complete name</u>: Daniel Pimentel Kansaon.
-                <!-- <br>Therefore, my family name is <u>Afonso</u>. However, I sign only <u>Johnnatan Messias</u> on my works. -->
+                <u>My complete name</u>: Daniel Pimentel Kansaon.               
                 <br>
-                <!-- <br> I have Erdos Number 4! Check it out:
-                  <br> Johnnatan Messias -> Ingmar Weber -> Zvi Lotker -> Noga Alon -> Paul Erdos
-                  <br> -->
                 <br> My CV is available for download:
                 <a href="pdf/resume_eng_johnnatan_messias.pdf" target="_blank">
-                  <i>in English</i>
-                </a>.
+                  <i>in English.</i>
+                </a>
                 <br>
                 <i>Last update:
                   <?= $modified_date ?>
@@ -508,6 +504,8 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
             <address>
               <strong>Federal University of Minas Gerais (UFMG)</strong>
               </br>
+              <span>Departament of Computer Science</span>
+              </br>
               <span>Avenue: Presidente Antônio Carlos - 4201 - 6499</span>
               </br>
               <span>Belo Horizonte, Minas Gerias - Brazil<span>
@@ -536,8 +534,6 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
     <div id="footer">
       <div class="container text-center">
         <p>
-          <!-- <a href="" target="_blank">DBLP</a> | -->
-          <!-- <a href="" target="_blank">Google Scholar</a> | -->
           <a href="https://www.linkedin.com/in/daniel-pimentel-1810a9104/" target="_blank">LinkedIn</a> |
           <a href="http://lattes.cnpq.br/0273544672957360" target="_blank">Lattes</a> |
           <a href="https://github.com/danielkansaon/" target="_blank">GitHub</a>

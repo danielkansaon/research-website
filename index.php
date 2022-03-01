@@ -116,7 +116,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
       <div class="card">
         <div class="card-header bg-secondary">
           <a class="card-link text-white" data-toggle="collapse" href="#about">
-            <strong>About</strong>
+            <strong>Bio</strong>
           </a>
         </div>
         <div id="about" data-parent="#accordion" class="collapse show">
@@ -138,7 +138,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
                       <a href="https://github.com/danielkansaon/" class="fa fa-github" target="_blank"></a>
                     </div>
                     <div class="col-md-3">
-                      <a href="https://www.linkedin.com/in/daniel-pimentel-1810a9104/" class="fa fa-linkedin" target="_blank"></a>
+                      <a href="https://www.linkedin.com/in/daniel-kansaon/" class="fa fa-linkedin" target="_blank"></a>
                     </div>
                   </div>
                 <?php else : ?>
@@ -169,17 +169,17 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
                 During my Master's, I worked with a focus on text classification and opinion mining.
 
                 Also, I completed my undergraduate degree in Information System at the Pontifícia Universidade Católica de Minas Gerias (<a href="https://www.pucminas.br/destaques/Paginas/default.aspx" target="_blank">PUC-MG</a>) in 2017.
-                In addition, I specialized in Distributed Software Architecture and worked for 3 years as a software engineer.
+                In addition, I specialized in Distributed Software Architecture and worked for almost 3 years as a software engineer.
 
                 <br>
                 <br>
-                <u>Interests</u>: Data Science, Complex Networks, Sentiment Analysis and Natural Language Processing.
+                <u>Interests</u>: Data Science, Data Analysis, Complex Networks, Machine Learning, Natural Language Processing, Sentiment Analysis and Opinion Mining.
                 <br>
                 <br>
                 <u>My complete name</u>: Daniel Pimentel Kansaon.               
                 <br>
                 <br> My CV is available for download:
-                <a href="pdf/resume_eng_johnnatan_messias.pdf" target="_blank">
+                <a href="pdf/resume_eng_daniel.pdf" target="_blank">
                   <i>in English.</i>
                 </a>
                 <br>
@@ -195,7 +195,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
       <div class="card">
         <div class="card-header bg-secondary">
           <a class="collapsed card-link text-white" data-toggle="collapse" href="#publications">
-            <strong>Publications</strong>
+            <strong>Selected Publications</strong>
           </a>
         </div>
         <div id="publications" data-parent="#accordion" class="collapse">
@@ -438,7 +438,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
             </ul>
             <p>
               <strong>For more information and complete curriculum visit:
-                <a href="https://www.linkedin.com/in/daniel-pimentel-1810a9104/" target="_blank">Linkedin</a>
+                <a href="https://www.linkedin.com/in/daniel-kansaon/" target="_blank">Linkedin</a>
               </strong>
             </p>
           </div>
@@ -458,7 +458,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
               <li>
                 <a href="http://www.eleicoes-sem-fake.dcc.ufmg.br/" target="_blank">
                   <strong>Eleições sem Fake:</strong>
-                </a> Many systems to help with the Fake news problem.
+                </a> Project led by Dr. Fabricio Benevenuto, which has Ph.D. students who contribute with systems focused on bringing transparency to Brazilian elections.
                 <br>
               </li>
               <li>
@@ -474,9 +474,15 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
                 <br>
               </li>
               <li>
-                <a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/indonesia/reports.php/" target="_blank">
+                <a href="http://www.monitor-de-whatsapp.dcc.ufmg.br/indonesia/reports.php" target="_blank">
                   <strong>WhatsApp Reports:</strong>
                 </a> Reports and Analyses through the lens of WhatsApp.
+                <br>
+              </li>
+              <li>
+                <a href="http://blackbird.dcc.ufmg.br/whatsapp-infovis/" target="_blank">
+                  <strong>Covid-19 Monitor:</strong>
+                </a> Analysis of Brazilian WhatsApp groups during the first three months of the pandemic in Brazil.
                 <br>
               </li>
             </ul>
@@ -521,7 +527,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
               <div class="container text-center">
                 <a href="http://lattes.cnpq.br/0273544672957360" target="_blank" border="0">
                   <img src="images/lattes.png" alt="Link para Lattes" title="Latte's Curriculum" width="48" height="48" class="logo"> </a>
-                <a href="https://www.linkedin.com/in/daniel-pimentel-1810a9104/" target="_black">
+                <a href="https://www.linkedin.com/in/daniel-kansaon/" target="_black">
                   <img src="images/linkedin.png" alt="Link para Linkedin" title="Linkedin" width="48" height="48" class="logo"> </a>
               </div>
             </div>
@@ -534,7 +540,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
     <div id="footer">
       <div class="container text-center">
         <p>
-          <a href="https://www.linkedin.com/in/daniel-pimentel-1810a9104/" target="_blank">LinkedIn</a> |
+          <a href="https://www.linkedin.com/in/daniel-kansaon/" target="_blank">LinkedIn</a> |
           <a href="http://lattes.cnpq.br/0273544672957360" target="_blank">Lattes</a> |
           <a href="https://github.com/danielkansaon/" target="_blank">GitHub</a>
         </p>

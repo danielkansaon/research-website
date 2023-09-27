@@ -25,7 +25,7 @@ $names = array(
   "lucas_bastos" => array("Lucas Bastos", "http://homepages.dcc.ufmg.br/~lucasmbastos/"),
   "emilio_zagheni" => array("Emilio Zagheni", "http://www.zagheni.net"),
   "joao_p_diniz" => array("João P. Diniz", "http://homepages.dcc.ufmg.br/~jpaulo/"),
-  "manoel_miranda" => array("Manoel Miranda", "http://homepages.dcc.ufmg.br/~manoelrmj/"),
+  "manoel_miranda" => array("Manoel Júnior", "http://homepages.dcc.ufmg.br/~manoelrmj/"),
   "miller_ferreira" => array("Miller Ferreira", "http://homepages.dcc.ufmg.br/~millermarques/"),
   "elias_soares" => array("Elias Soares", "http://homepages.dcc.ufmg.br/~eliassoares/"),
   "juhi_kulshrestha" => array("Juhi Kulshrestha", "http://www.mpi-sws.org/~juhi/"),
@@ -138,7 +138,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
                       <a href="https://github.com/danielkansaon/" class="fa fa-github" target="_blank"></a>
                     </div>
                     <div class="col-md-3">
-                      <a href="https://www.linkedin.com/in/daniel-kansaon/" class="fa fa-linkedin" target="_blank"></a>
+                      <a href="https://www.linkedin.com/in/danielkansaon/" class="fa fa-linkedin" target="_blank"></a>
                     </div>
                   </div>
                 <?php else : ?>
@@ -158,14 +158,15 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
                   <?php endif; ?> -->
 
               <div class="col-md-9">
-                I am a Ph.D. student at the Universidade Federal de Minas Gerais, Brazil (<a href="https://ppgcc.dcc.ufmg.br/en/" target="_blank">UFMG</a>) in the <a href="https://garnet.dcc.ufmg.br/dcc/?q=en/node/2728" target="_blank">Social Computing Research</a>
-                group. I am advised by <a href="https://homepages.dcc.ufmg.br/~fabricio/" target="_blank">Dr. Fabrício Benevenuto</a>.
+                I am currently pursuing my Ph.D. at the Universidade Federal de Minas Gerais, Brazil (<a href="https://ppgcc.dcc.ufmg.br/en/" target="_blank">UFMG</a>), where I am a member of the <a href="https://garnet.dcc.ufmg.br/dcc/?q=en/node/2728" target="_blank">Social Computing Research Group</a>.
+                Additionally, I am engaged in collaborative research with a group at Max Planck Institute Informatik <a href="https://www.mpi-inf.mpg.de/home" target="_blank">(MPI-INF)</a>. I am advised by <a href="https://homepages.dcc.ufmg.br/~fabricio/" target="_blank">Dr. Fabrício Benevenuto</a>.
                 <br>
                 <br>
                 My research involves areas from computer science related to data science, including natural language processing, machine learning and data mining.
-                I am currently working on projects related to misinformation, hate speech and systems with societal impact.
+                I am currently working on projects related to misinformation, hate speech and systems with societal impact. I gained valuable experience as a research intern during a three-month stint at the Max Planck Informatik Institute <a href="https://www.mpi-inf.mpg.de/home" target="_blank">(MPI-INF)</a> in Germany. 
+                
 
-                I hold my Master's degree in Computer Science at the Universidade Federal de Minas Gerais (<a href="https://ppgcc.dcc.ufmg.br/en/" target="_blank">UFMG</a>) in 2020.
+                I earned my Master's degree in Computer Science at the Universidade Federal de Minas Gerais (<a href="https://ppgcc.dcc.ufmg.br/en/" target="_blank">UFMG</a>) in 2020.
                 During my Master's, I worked with a focus on text classification and opinion mining.
 
                 Also, I completed my undergraduate degree in Information System at the Pontifícia Universidade Católica de Minas Gerias (<a href="https://www.pucminas.br/destaques/Paginas/default.aspx" target="_blank">PUC-MG</a>) in 2017.
@@ -203,9 +204,9 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
             <h3>Journal Publications </h3>
 
             <ul class="list-inline">
-              <li>Análise de Algoritmos de Classificação para Detecção de Emoções em Tweets em Português Brasileiro
+              <li>Analysis of Classification Algorithms for Detecting Emotions in Tweets in Brazilian Portuguese <i>(translated)</i>
                 <ul>
-                  <li>
+                  <li> 
                     <?= get_authors(array("daniel_kansaon", "michele_brandao", "saulo_pinto")) ?>
                   </li>
                   <li>ISys - Revista Brasileira de Sistemas de Informação, v. 12, p. 116-138, 2019.</li>
@@ -228,9 +229,77 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
             </ul>
 
             <h3>Conference Publications </h3>
+            <ul class="list-inline">
+              <li>“Click Here to Join”: A Large-Scale Analysis of Topics Discussed by Brazilian Public Groups on WhatsApp
+                <ul>
+                  <li>
+                    <?= get_authors(array("daniel_kansaon", "philipe_melo", "fabricio_benevenuto")) ?>
+                  </li>
+                  <li> In Proceedings of the Brazilian Symposium on Multimedia and the Web, Curitiba, Brazil, 2022.
+                  </li>
+                  <li>
+                    <a href="#click_here" data-toggle="collapse">
+                      <span class="badge badge-dark">Abstract</span>
+                    </a>
+                    <a href="https://dl.acm.org/doi/pdf/10.1145/3539637.3557056?casa_token=90KGob_2FQcAAAAA:fixQXrSq_mjhYIKEWblgH_r2HIXcbmmoOTiH7d5L3c4W8wscIJFWB89htBMwFYPFBv6IWBbRTQ9Ue9c" target="_blank">
+                      <span class="badge badge-danger">PDF</span>
+                    </a>
+                    <a href="https://dl.acm.org/doi/abs/10.1145/3539637.3557056" target="_blank">
+                      <span class="badge badge-info">Link</span>
+                    </a>
+                    <a href="bibtex/clickhere.bib" target="_blank">
+                      <span class="badge badge-secondary">BibTeX</span>
+                    </a>
+                  </li>
+                </ul>
+                </li>
+              <div id="click_here" class="collapse">
+                <b>Abstract:</b> WhatsApp has many similarities with online social networks, as it allows connections between multiple people and massive communication by sharing content with your contacts and public groups, which brings people together to discuss a topic. Even though it is one of the most popular social media in the world, there is a lack of a systematic understanding of the Whatsapp ecosystem, especially when it comes to knowing the subjects discussed in public groups and how other users find/join those groups. In this direction, our goal is to investigate how public groups are shared on the Web and also map the main topics existing within this ecosystem. For this, we perform a large-scale collection, spanning four main sources on the Web for sharing groups, with more than 270k WhatsApp public groups, categorizing and analyzing this environment. Our results shed light on a large existence of groups focused on topics such as friendship, pop culture, stickers, sales, jobs, education, and even adult content suggesting the many uses of the WhatsApp tool. We also found key differences in groups according to the source where it was posted. Moreover, we discovered how group links work to persuade users from other platforms into the underground environment of WhatsApp. Malicious groups abuse its closed architecture and low moderation for illicit practices such as selling fake money and cloned cards. Furthermore, our analysis also found evidence of automated behavior in malicious group sharing. Finally, we discuss implications and measures that can be taken to address these issues.
+              </div>
+            </ul>
+
+             <ul class="list-inline">
+              <li>Telegram Monitor: Monitoring Brazilian Political Groups and Channels on Telegram
+                <ul>
+                  <li>
+                    <?= get_authors(array("manoel_miranda", "philipe_melo", "daniel_kansaon", "vitor_mafra", "kaio_sa", "fabricio_benevenuto")) ?>
+                  </li>
+                  <li> In Proceedings of the 33rd ACM Conference on Hypertext and Social Media, Barcelona, Spain, 2022.
+                  </li>
+                  <li>
+                    <a href="#www-telegram" data-toggle="collapse">
+                      <span class="badge badge-dark">Abstract</span>
+                    </a>
+                    <a href="https://dl.acm.org/doi/pdf/10.1145/3511095.3536375?casa_token=Acf5h-0c1m0AAAAA:168axEDp6pct_TwEk4lvVIr0nRjnWa1QNlNDEnP4WZcTFKnVwVN4VxT_C-88K9_Xwh6b6d1EQLpKDeY" target="_blank">
+                      <span class="badge badge-danger">PDF</span>
+                    </a>
+                    <a href="https://dl.acm.org/doi/pdf/10.1145/3511095.3536375?casa_token=Acf5h-0c1m0AAAAA:168axEDp6pct_TwEk4lvVIr0nRjnWa1QNlNDEnP4WZcTFKnVwVN4VxT_C-88K9_Xwh6b6d1EQLpKDeY" target="_blank">
+                      <span class="badge badge-info">Link</span>
+                    </a>
+                    <a href="bibtex/telegram.bib" target="_blank">
+                      <span class="badge badge-secondary">BibTeX</span>
+                    </a>
+                    <a href="http://www.telegram-monitor.dcc.ufmg.br/" target="_blank">
+                      <span class="badge badge-primary">System</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <div id="www-telegram" class="collapse">
+                <b>Abstract:</b> In this work, we present the “Telegram Monitor”, a web-based
+                  system that monitors the political debate in this environment and
+                  enables the analysis of the most shared content in multiple channels
+                  and public groups. Our system aims to allow journalists, researchers,
+                  and fact-checking agencies to identify trending conspiracy theories, misinformation campaigns, or simply to monitor the political
+                  debate in this space along the 2022 Brazilian elections. We hope our
+                  system can assist the combat of misinformation spreading through
+                  Telegram in Brazil. The following link contains a brief description
+                  about the aforementioned system: https://bit.ly/3l4xNrF.
+              </div>
+            </ul>
 
             <ul class="list-inline">
-              <li>Monitor de WhatsApp: Um Sistema para Checagem de Fatos no Combate à Desinformação
+              <li>WhatsApp Monitor: A Fact-Checking System to Combat Misinformation <i>(translated)</i>
                 <ul>
                   <li>
                     <?= get_authors(array("philipe_melo", "fabricio_benevenuto", "daniel_kansaon", "vitor_mafra", "kaio_sa")) ?>
@@ -311,9 +380,6 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
                     <a href="bibtex/webmedia_eleicao2018.bib" target="_blank">
                       <span class="badge badge-secondary">BibTeX</span>
                     </a>
-                    <a href="http://www.audiencia-dos-politicos.dcc.ufmg.br/" target="_blank">
-                      <span class="badge badge-primary">System</span>
-                    </a>
                   </li>
                 </ul>
               </li>
@@ -323,7 +389,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
             </ul>
 
             <ul class="list-inline">
-              <li>Análise de Sentimentos em ​Tweets​ em Português Brasileiro
+              <li>Sentiment Analysis in Brazilian Portuguese Tweets <i>(translated)</i>
                 <ul>
                   <li>
                     <?= get_authors(array("daniel_kansaon", "michele_brandao", "saulo_pinto")) ?>
@@ -395,7 +461,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
 
             <h3>Bachelor's Thesis</h3>
             <ul class="list-inline">
-              <li>Técnicas de Classificação para Análise de Sentimentos em Tweets em Português Brasileiro
+              <li>Classification Techniques for Sentiment Analysis in Tweets in Brazilian Portuguese <i>(translated)</i>
                 <ul>
                   <li>
                     <?= get_authors(array("daniel_kansaon")) ?>
@@ -438,7 +504,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
             </ul>
             <p>
               <strong>For more information and complete curriculum visit:
-                <a href="https://www.linkedin.com/in/daniel-kansaon/" target="_blank">Linkedin</a>
+                <a href="https://www.linkedin.com/in/danielkansaon/" target="_blank">Linkedin</a>
               </strong>
             </p>
           </div>
@@ -540,7 +606,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
     <div id="footer">
       <div class="container text-center">
         <p>
-          <a href="https://www.linkedin.com/in/daniel-kansaon/" target="_blank">LinkedIn</a> |
+          <a href="https://www.linkedin.com/in/danielkansaon/" target="_blank">LinkedIn</a> |
           <a href="http://lattes.cnpq.br/0273544672957360" target="_blank">Lattes</a> |
           <a href="https://github.com/danielkansaon/" target="_blank">GitHub</a>
         </p>

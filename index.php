@@ -54,7 +54,10 @@ $names = array(
   "matheus_barbosa" => array("Mateus Barbosa", "#"),
   "kaio_sa" => array("Kaio Sá", "#"),
   "vitor_mafra" => array("Vitor Mafra", "#"),
-  "saulo_pinto" => array("Saulo A. Pinto", "#")
+  "saulo_pinto" => array("Saulo A. Pinto", "#"),
+  "savvas_zannettou" => array("Savvas Zannettou", "https://zsavvas.github.io/"),
+  "anja_feldmann" => array("Anja Feldmann", "https://www.mpi-inf.mpg.de/departments/inet/people/anja-feldmann")
+  
 );
 
 function parse_author_to_html($author)
@@ -228,7 +231,67 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
               </div>
             </ul>
 
+            <ul class="list-inline">
+              <li>Mining Comparative Opinions in Portuguese: A Lexicon-based Approach
+                <ul>
+                  <li> 
+                    <?= get_authors(array("daniel_kansaon", "michele_brandao", "julio_reis", "fabricio_benevenuto")) ?>
+                  </li>
+                  <li>JBCS - Journal of the Brazilian Computer Society, 2024.</li>
+                  <li>
+                    <a href="#sentiment_jbcs" data-toggle="collapse">
+                      <span class="badge badge-dark">Abstract</span>
+                    </a>
+                    <!-- <a href="http://www.seer.unirio.br/isys/article/view/8229" target="_blank">
+                      <span class="badge badge-info">Link</span>
+                    </a> -->
+                    <!-- <a href="bibtex/isys.bib" target="_blank">
+                      <span class="badge badge-secondary">BibTeX</span>
+                    </a> -->
+                  </li>
+                </ul>
+              </li>
+              <div id="sentiment_jbcs" class="collapse">
+                <b>Abstract:</b> The constant expansion of e-commerce recently boosted due to the coronavirus pandemic, has led to a massive increase in online shopping, made by increasingly demanding customers, who seek comments and reviews on the Web to assist in decision-making regarding the purchase of products. In these reviews, part of the opinions found are comparisons, which contrast aspects expressing a preference for an object over others. However, this information is neglected by traditional sentiment analysis techniques and it is not applicable for comparisons, since they do not directly express positive or negative sentiment. In this context, despite efforts in the English language, almost no studies have been done to develop appropriate solutions that allow the analysis of comparisons in the Portuguese language. This work presented one of the first studies on comparative opinion in Portuguese and four main contributions, are (1) A hierarchical approach for detecting comparative opinions, which consists of an initial binary step, which subdivides the regular opinions from the comparatives, to further categorize the comparatives into the five opinion groups: (1) Non-Comparative; (2) Non-Equal Gradable; (3) Equative, (4) Superlative; and (5) Non-Gradable. The results are promising, reaching 87% of Macro-F1 and 0.94 of AUC (Compute Area Under the Curve) for the binary step, and 61% of Macro-F1 in multiple classes; (2) An lexicon algorithm to detect the entity expressed as preferred in comparative sentences, reaching 94% of Macro-F1 for Superlative; (3) Two new datasets with approximately 5,000 comparative and non-comparative sentences in Portuguese; and (4) a lexicon with words and expressions frequently used to make comparisons in the Portuguese language.
+              </div>
+            </ul>
+
             <h3>Conference Publications </h3>
+            <ul class="list-inline">
+              <li>Strategies and Attacks of Digital Militias in WhatsApp Political Groups
+                <ul>
+                  <li>
+                    <?= get_authors(array("daniel_kansaon", "philipe_melo", "savvas_zannettou", "anja_feldmann", "fabricio_benevenuto")) ?>
+                  </li>
+                  <li> In Proceedings of the International AAAI Conference on Web and Social Media, Buffalo, US, 2024.
+                  </li>
+                  <li>
+                    <a href="#attacks" data-toggle="collapse">
+                      <span class="badge badge-dark">Abstract</span>
+                    </a>
+                    <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/31354/33514" target="_blank">
+                      <span class="badge badge-danger">PDF</span>
+                    </a>
+                    <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/31354" target="_blank">
+                      <span class="badge badge-info">Link</span>
+                    </a>
+                    <a href="bibtex/icwsm_2024.bib" target="_blank">
+                      <span class="badge badge-secondary">BibTeX</span>
+                    </a>
+                  </li>
+                </ul>
+                </li>
+              <div id="attacks" class="collapse">julio_reis
+                <b>Abstract:</b> WhatsApp provides a fertile ground for the large-scale dissemination of information, particularly in countries like Brazil and India. 
+                    Given its increasing popularity and use for political discussions, it is paramount to ensure that WhatsApp groups are adequately protected from attackers who aim to disrupt the activity of WhatsApp groups.
+                    Motivated by this, in this work, we characterize two types of attacks that may disrupt WhatsApp groups.
+                    We look into the flooding attack, where an attacker shares usually numerous duplicate messages within a short period, and the hijacking attack, where attackers aim to obtain complete control of the group.
+                    We collect a large dataset of 19M messages shared in 1.6K WhatsApp public political groups from Brazil and analyze them to identify and characterize flooding and hijacking attacks.
+                    Among other things, we find that approximately 7% of the groups receive flooding attacks, which are usually short-lived (usually less than four minutes), and groups can receive multiple flooding attacks, even within the same day. 
+                    Also, we find that most flooding attacks are executed using stickers (62% of all flooding attacks) and that, in most cases, attackers use both flooding and hijacking attacks to obtain complete control of the WhatsApp groups. Our work aims to raise user awareness about such attacks on WhatsApp and emphasizes the need to develop effective moderation tools to assist group administrators in preventing or mitigating such attacks.
+              </div>
+            </ul>
+
             <ul class="list-inline">
               <li>“Click Here to Join”: A Large-Scale Analysis of Topics Discussed by Brazilian Public Groups on WhatsApp
                 <ul>
@@ -558,6 +621,11 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
               <a href="https://doi.org/10.5281/zenodo.4124410" target="_blank">
                   <strong>Dataset with portuguese comparative sentences:</strong>
                 </a> Comparative sentences from Twitter and Buscapé. They were labeled in 5 classes.
+              </li>
+              <li>
+              <a href="https://zenodo.org/records/7017910" target="_blank">
+                  <strong>Public WhatsApp groups from the Brazilian online repositories:</strong>
+                </a> Dataset with WhatsApp Brazilian public groups.
               </li>
             </ul>
           </div>

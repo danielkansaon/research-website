@@ -56,7 +56,8 @@ $names = array(
   "vitor_mafra" => array("Vitor Mafra", "#"),
   "saulo_pinto" => array("Saulo A. Pinto", "#"),
   "savvas_zannettou" => array("Savvas Zannettou", "https://zsavvas.github.io/"),
-  "anja_feldmann" => array("Anja Feldmann", "https://www.mpi-inf.mpg.de/departments/inet/people/anja-feldmann")
+  "anja_feldmann" => array("Anja Feldmann", "https://www.mpi-inf.mpg.de/departments/inet/people/anja-feldmann"),
+  "marcio_silva" => array("Marcio Silva", "https://facom.ufms.br/~marcio/")
   
 );
 
@@ -161,8 +162,8 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
                   <?php endif; ?> -->
 
               <div class="col-md-9">
-                I am currently pursuing my Ph.D. at the Universidade Federal de Minas Gerais, Brazil (<a href="https://ppgcc.dcc.ufmg.br/en/" target="_blank">UFMG</a>), where I am a member of the <a href="https://garnet.dcc.ufmg.br/dcc/?q=en/node/2728" target="_blank">Social Computing Research Group</a>.
-                Additionally, I am engaged in collaborative research with a group at Max Planck Institute Informatik <a href="https://www.mpi-inf.mpg.de/home" target="_blank">(MPI-INF)</a>. I am advised by <a href="https://homepages.dcc.ufmg.br/~fabricio/" target="_blank">Dr. Fabrício Benevenuto</a>.
+                I am currently pursuing my Ph.D. at the Universidade Federal de Minas Gerais, Brazil (<a href="https://ppgcc.dcc.ufmg.br/en/" target="_blank">UFMG</a>), where I am a member of the <a href="https://garnet.dcc.ufmg.br/dcc/?q=en/node/2728" target="_blank">Social Computing Research Group</a>, and advised by <a href="https://homepages.dcc.ufmg.br/~fabricio/" target="_blank">Dr. Fabrício Benevenuto</a>.
+                Additionally, I engaged in collaborative research with a group at Max Planck Institute Informatik <a href="https://www.mpi-inf.mpg.de/home" target="_blank">(MPI-INF)</a>, with <a href="https://www.mpi-inf.mpg.de/departments/inet/people/anja-feldmann" target="_blank">Anja Feldmann</a> and <a href="https://zsavvas.github.io/" target="_blank">Savvas Zannettou</a>. 
                 <br>
                 <br>
                 My research involves areas from computer science related to data science, including natural language processing, machine learning and data mining.
@@ -177,7 +178,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
 
                 <br>
                 <br>
-                <u>Interests</u>: Data Science, Data Analysis, Complex Networks, Machine Learning, Natural Language Processing, Sentiment Analysis and Opinion Mining.
+                <u>Interests</u>: Data Analysis, Complex Networks, Machine Learning, Natural Language Processing and Sentiment Analysis.
                 <br>
                 <br>
                 <u>My complete name</u>: Daniel Pimentel Kansaon.               
@@ -232,7 +233,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
             </ul>
 
             <ul class="list-inline">
-              <li>Mining Comparative Opinions in Portuguese: A Lexicon-based Approach
+              <li>Mining Comparative Opinions in Portuguese: A Lexicon-based Approach [Awaiting Publication]
                 <ul>
                   <li> 
                     <?= get_authors(array("daniel_kansaon", "michele_brandao", "julio_reis", "fabricio_benevenuto")) ?>
@@ -281,7 +282,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
                   </li>
                 </ul>
                 </li>
-              <div id="attacks" class="collapse">julio_reis
+              <div id="attacks" class="collapse">
                 <b>Abstract:</b> WhatsApp provides a fertile ground for the large-scale dissemination of information, particularly in countries like Brazil and India. 
                     Given its increasing popularity and use for political discussions, it is paramount to ensure that WhatsApp groups are adequately protected from attackers who aim to disrupt the activity of WhatsApp groups.
                     Motivated by this, in this work, we characterize two types of attacks that may disrupt WhatsApp groups.
@@ -289,6 +290,34 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
                     We collect a large dataset of 19M messages shared in 1.6K WhatsApp public political groups from Brazil and analyze them to identify and characterize flooding and hijacking attacks.
                     Among other things, we find that approximately 7% of the groups receive flooding attacks, which are usually short-lived (usually less than four minutes), and groups can receive multiple flooding attacks, even within the same day. 
                     Also, we find that most flooding attacks are executed using stickers (62% of all flooding attacks) and that, in most cases, attackers use both flooding and hijacking attacks to obtain complete control of the WhatsApp groups. Our work aims to raise user awareness about such attacks on WhatsApp and emphasizes the need to develop effective moderation tools to assist group administrators in preventing or mitigating such attacks.
+              </div>
+            </ul>
+            <ul class="list-inline">
+              <li>WhatsApp Monitor 2.0 – Monitoring Brazilian Political Groups on WhatsApp [Awaiting Publication] <i>(translated)</i>
+                <ul>
+                  <li>
+                    <?= get_authors(array("marcio_silva", "daniel_kansaon", "philipe_melo", "fabricio_benevenuto")) ?>
+                  </li>
+                  <li> In Brazilian Database Symposium, Florianópolis, SC, 2024.
+                  </li>
+                  <li>
+                    <a href="#demo_monitor" data-toggle="collapse">
+                      <span class="badge badge-dark">Abstract</span>
+                    </a>
+                    <!-- <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/31354/33514" target="_blank">
+                      <span class="badge badge-danger">PDF</span>
+                    </a>
+                    <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/31354" target="_blank">
+                      <span class="badge badge-info">Link</span>
+                    </a>
+                    <a href="bibtex/icwsm_2024.bib" target="_blank">
+                      <span class="badge badge-secondary">BibTeX</span>
+                    </a> -->
+                  </li>
+                </ul>
+                </li>
+              <div id="demo_monitor" class="collapse">julio_reis
+                <b>Abstract:</b> WhatsApp has become a crucial tool in communicating and disseminating (mis)information in Brazil. Since 2018, the tool has been widely used for disinformation and hate speech campaigns. In this work, we propose WhatsApp Monitor 2.0, a web-based system that aids researchers and journalists in tracking, in real-time, the most popular content shared in public WhatsApp political groups. Our tool monitors, processes, and ranks images, videos, audios, and text messages posted in these groups, presenting the most popular content daily. WhatsApp Monitor 2.0 provides a valuable resource for identifying viral content on WhatsApp, thus helping to combat misinformation.
               </div>
             </ul>
 

@@ -57,7 +57,8 @@ $names = array(
   "saulo_pinto" => array("Saulo A. Pinto", "#"),
   "savvas_zannettou" => array("Savvas Zannettou", "https://zsavvas.github.io/"),
   "anja_feldmann" => array("Anja Feldmann", "https://www.mpi-inf.mpg.de/departments/inet/people/anja-feldmann"),
-  "marcio_silva" => array("Marcio Silva", "https://facom.ufms.br/~marcio/")
+  "marcio_silva" => array("Marcio Silva", "https://facom.ufms.br/~marcio/"),
+  "joao_couto" => array("Joao M. M. Couto", "https://dl.acm.org/profile/99660939617")
   
 );
 
@@ -258,6 +259,66 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
             </ul>
 
             <h3>Conference Publications </h3>
+            <ul class="list-inline">
+              <li>From Fake News to Real Protests: WhatsApp's Role in Brazilian Political Coordination
+                <ul>
+                  <li>
+                    <?= get_authors(array("daniel_kansaon", "philipe_melo", "savvas_zannettou", "fabricio_benevenuto")) ?>
+                  </li>
+                  <li> In Proceedings of the International AAAI Conference on Web and Social Media, Copenhagen, Denmark, 2025.
+                  </li>
+                  <li>
+                    <a href="#coord" data-toggle="collapse">
+                      <span class="badge badge-dark">Abstract</span>
+                    </a>
+                    <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/35857/38011" target="_blank">
+                      <span class="badge badge-danger">PDF</span>
+                    </a>
+                    <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/35857" target="_blank">
+                      <span class="badge badge-info">Link</span>
+                    </a>
+                    <a href="bibtex/icwsm_2025_coordination.bib" target="_blank">
+                      <span class="badge badge-secondary">BibTeX</span>
+                    </a>
+                  </li>
+                </ul>
+                </li>
+              <div id="coord" class="collapse">
+                <b>Abstract:</b> The growth of social networks has raised concerns about the misuse of these platforms by disinformation campaigns, social bots, and coordinated activities. 
+                Among these platforms, WhatsApp has become a focal point for this abuse, particularly in Brazil, one of the countries with the highest use of the platform. Despite acknowledging the presence of coordinated campaigns and implementing restrictions on the number of messages forwarded per user, the platform continues to be abused. Due to its private nature and the difficulty of collecting information, little is known about these campaigns and the messages they disseminate. Given this context, our study investigates the presence of coordinated activities on WhatsApp in Brazil, identifying their content and purpose, especially how these messages relate to recent Brazilian political events. To answer these questions, we analyzed 13 million messages from 1,444 political groups over seven months from July 2022 to January 2023. Using network analysis, our findings suggest a significant prevalence of coordinated activity in the propagation of news messages, 26% of which originate from misinformation sites. Furthermore, we found that images play a key role in coordinated activity, accounting for 15% of messages, which are also used to mislead. Finally, coordinated accounts were used to organize collective actions, including attacks and protests against election results.
+              </div>
+            </ul>
+
+            <ul class="list-inline">
+              <li>A Sticker is Worth a Thousand Words: Characterizing the Use and Abuse of Stickers on WhatsApp Political Groups in Brazil
+                <ul>
+                  <li>
+                    <?= get_authors(array("philipe_melo", "daniel_kansaon", "joao_couto", "julio_reis", "fabricio_benevenuto")) ?>
+                  </li>
+                  <li> In Proceedings of the International AAAI Conference on Web and Social Media, Copenhagen, Denmark, 2025.
+                  </li>
+                  <li>
+                    <a href="#stickers" data-toggle="collapse">
+                      <span class="badge badge-dark">Abstract</span>
+                    </a>
+                    <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/35869/38023" target="_blank">
+                      <span class="badge badge-danger">PDF</span>
+                    </a>
+                    <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/35869" target="_blank">
+                      <span class="badge badge-info">Link</span>
+                    </a>
+                    <a href="bibtex/icwsm_2025_stickers.bib" target="_blank">
+                      <span class="badge badge-secondary">BibTeX</span>
+                    </a>
+                  </li>
+                </ul>
+                </li>
+              <div id="stickers" class="collapse">
+                <b>Abstract:</b> Instant messaging platforms have become an important means of communication in our world. 
+                According to WhatsApp, more than 100 billion messages are sent daily through the app. Communication on these platforms has allowed individuals to express themselves in other types of media, rather than simple text, including audio, videos, images, and, more recently, stickers. This new multimedia format, in particular, emerged with messaging apps and gained considerable popularity among users, promoting new forms of interactions. Stickers range from static images of memes and emojis to animated images similar to GIFs, often used in humorous contexts. However, in the Brazilian context of WhatsApp, they are transcending their role as a mere form of humor to become an important element in political strategy. In this regard, we investigate how stickers are used, revealing unique characteristics that these media bring to public WhatsApp groups and, more specifically, the political use of this new media format. Furthermore, we found evidence of sticker abuse on WhatsApp, where users attack political opponents and spread hate speech and offensive content in public groups without any moderation. To investigate this phenomenon, we collected a large sample of messages from public political WhatsApp groups in Brazil and analyzed the sticker messages shared in this context. Warning! This paper contains images and terms that may be offensive to some audiences.
+
+              </div>
+            </ul>
             <ul class="list-inline">
               <li>Strategies and Attacks of Digital Militias in WhatsApp Political Groups
                 <ul>

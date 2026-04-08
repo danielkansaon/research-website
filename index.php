@@ -163,13 +163,13 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
                   <?php endif; ?> -->
 
               <div class="col-md-9">
-                I am currently pursuing my Ph.D. at the Universidade Federal de Minas Gerais, Brazil (<a href="https://ppgcc.dcc.ufmg.br/en/" target="_blank">UFMG</a>), where I am a member of the <a href="https://garnet.dcc.ufmg.br/dcc/?q=en/node/2728" target="_blank">Social Computing Research Group</a>, and advised by <a href="https://homepages.dcc.ufmg.br/~fabricio/" target="_blank">Dr. Fabrício Benevenuto</a>.
-                Additionally, I engaged in collaborative research with a group at Max Planck Institute Informatik <a href="https://www.mpi-inf.mpg.de/home" target="_blank">(MPI-INF)</a>, with <a href="https://www.mpi-inf.mpg.de/departments/inet/people/anja-feldmann" target="_blank">Anja Feldmann</a> and <a href="https://zsavvas.github.io/" target="_blank">Savvas Zannettou</a>. 
+                I am a Ph.D. candidate in Computer Science at the Computer Science at the Federal University of Minas Gerais (<a href="https://ppgcc.dcc.ufmg.br/en/" target="_blank">UFMG</a>), Brazil, 
+                where I am a member of the <a href="https://garnet.dcc.ufmg.br/dcc/?q=en/node/2728" target="_blank">Social Computing Research Group</a> under the supervision of <a href="https://homepages.dcc.ufmg.br/~fabricio/" target="_blank">Dr. Fabrício Benevenuto</a>. 
+                Additionally, I am currently collaborating with an NLP research group at the <a href="https://sheffield.ac.uk/" target="_blank">University of Sheffield</a>, 
+                working with <a href="https://sheffield.ac.uk/cs/people/research-staff/diana-maynard" target="_blank">Diana Maynard</a>.
                 <br>
                 <br>
-                My research involves areas from computer science related to data science, including natural language processing, machine learning and data mining.
-                I am currently working on projects related to misinformation, hate speech and systems with societal impact. I gained valuable experience as a research intern during a three-month stint at the Max Planck Informatik Institute <a href="https://www.mpi-inf.mpg.de/home" target="_blank">(MPI-INF)</a> in Germany. 
-                
+                My academic journey is marked by some international collaboration in which I gained valuable research experience working during a three-month internship at the <a href="https://www.mpi-inf.mpg.de/" target="_blank">Max Planck Institute for Informatics (MPI-INF) </a> in 2023, where I worked with Anja Feldmann and Savvas Zannettou. More recently, in 2025, I collaborated as a visiting researcher with an NLP research group at the <a href="https://sheffield.ac.uk/" target="_blank">University of Sheffield</a>.
 
                 I earned my Master's degree in Computer Science at the Universidade Federal de Minas Gerais (<a href="https://ppgcc.dcc.ufmg.br/en/" target="_blank">UFMG</a>) in 2020.
                 During my Master's, I worked with a focus on text classification and opinion mining.

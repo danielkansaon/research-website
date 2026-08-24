@@ -58,7 +58,8 @@ $names = array(
   "savvas_zannettou" => array("Savvas Zannettou", "https://zsavvas.github.io/"),
   "anja_feldmann" => array("Anja Feldmann", "https://www.mpi-inf.mpg.de/departments/inet/people/anja-feldmann"),
   "marcio_silva" => array("Marcio Silva", "https://facom.ufms.br/~marcio/"),
-  "joao_couto" => array("Joao M. M. Couto", "https://dl.acm.org/profile/99660939617")
+  "joao_couto" => array("Joao M. M. Couto", "https://dl.acm.org/profile/99660939617"),
+  "diana_maynard" => array("Diana Maynard", "https://sheffield.ac.uk/cs/people/research-staff/diana-maynard")
   
 );
 
@@ -169,7 +170,8 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
                 working with <a href="https://sheffield.ac.uk/cs/people/research-staff/diana-maynard" target="_blank">Diana Maynard</a>.
                 <br>
                 <br>
-                My academic journey is marked by some international collaboration in which I gained valuable research experience working during a three-month internship at the <a href="https://www.mpi-inf.mpg.de/" target="_blank">Max Planck Institute for Informatics (MPI-INF) </a> in 2023, where I worked with Anja Feldmann and Savvas Zannettou. More recently, in 2025, I collaborated as a visiting researcher with an NLP research group at the <a href="https://sheffield.ac.uk/" target="_blank">University of Sheffield</a>.
+                My academic journey is marked by some international collaboration in which I gained valuable research experience working during a three-month internship at the <a href="https://www.mpi-inf.mpg.de/" target="_blank">Max Planck Institute for Informatics (MPI-INF) </a> in 2023, 
+                where I worked with <a href="https://www.mpi-inf.mpg.de/departments/inet/people/anja-feldmann" target="_blank">Anja Feldmann</a> and <a href="https://zsavvas.github.io/" target="_blank">Savvas Zannettou</a>. More recently, in 2025, I collaborated as a visiting researcher with an NLP research group at the <a href="https://sheffield.ac.uk/" target="_blank">University of Sheffield</a>.
 
                 I earned my Master's degree in Computer Science at the Universidade Federal de Minas Gerais (<a href="https://ppgcc.dcc.ufmg.br/en/" target="_blank">UFMG</a>) in 2020.
                 During my Master's, I worked with a focus on text classification and opinion mining.
@@ -179,7 +181,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
 
                 <br>
                 <br>
-                <u>Interests</u>: Data Analysis, Complex Networks, Machine Learning, Natural Language Processing and Sentiment Analysis.
+                <u>Interests</u>: AI & Society, Complex Networks, Machine Learning, Natural Language Processing and Sentiment Analysis.
                 <br>
                 <br>
                 <u>My complete name</u>: Daniel Pimentel Kansaon.               
@@ -206,59 +208,37 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
         </div>
         <div id="publications" data-parent="#accordion" class="collapse">
           <div class="card-body">
-            <h3>Journal Publications </h3>
-
-            <ul class="list-inline">
-              <li>Analysis of Classification Algorithms for Detecting Emotions in Tweets in Brazilian Portuguese <i>(translated)</i>
-                <ul>
-                  <li> 
-                    <?= get_authors(array("daniel_kansaon", "michele_brandao", "saulo_pinto")) ?>
-                  </li>
-                  <li>ISys - Revista Brasileira de Sistemas de Informação, v. 12, p. 116-138, 2019.</li>
-                  <li>
-                    <a href="#political_leaning_journal" data-toggle="collapse">
-                      <span class="badge badge-dark">Abstract</span>
-                    </a>
-                    <a href="http://www.seer.unirio.br/isys/article/view/8229" target="_blank">
-                      <span class="badge badge-info">Link</span>
-                    </a>
-                    <a href="bibtex/isys.bib" target="_blank">
-                      <span class="badge badge-secondary">BibTeX</span>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <div id="political_leaning_journal" class="collapse">
-                <b>Abstract:</b> With increasing access to the Web, large amounts of content are produced daily. The study of such contents allows the discovery of new knowledge. In this sense, this work presents an analysis of algorithms that allow the detection of emotions in tweets in the Brazilian Portuguese language. Thus, ten algorithms are considered, from decision trees to classifiers based on Bayes model, addressing altogether, seven classes of emotions: sad, upset, love, happy, anger, envy and irony. The results of the experimental evaluation are better when classifying relationships of distinct emotions, reaching 85\% accuracy with a Naive Bayes algorithm. On the other hand, relations between close feelings present results inferior to 70\% of correctness in some cases. Moreover, Naive Bayes-based classification algorithms present efficient results in a variety of contexts, in addition to having consistent language-independent behavior.
-              </div>
-            </ul>
-
-            <ul class="list-inline">
-              <li>Mining Comparative Opinions in Portuguese: A Lexicon-based Approach [Awaiting Publication]
-                <ul>
-                  <li> 
-                    <?= get_authors(array("daniel_kansaon", "michele_brandao", "julio_reis", "fabricio_benevenuto")) ?>
-                  </li>
-                  <li>JBCS - Journal of the Brazilian Computer Society, 2024.</li>
-                  <li>
-                    <a href="#sentiment_jbcs" data-toggle="collapse">
-                      <span class="badge badge-dark">Abstract</span>
-                    </a>
-                    <!-- <a href="http://www.seer.unirio.br/isys/article/view/8229" target="_blank">
-                      <span class="badge badge-info">Link</span>
-                    </a> -->
-                    <!-- <a href="bibtex/isys.bib" target="_blank">
-                      <span class="badge badge-secondary">BibTeX</span>
-                    </a> -->
-                  </li>
-                </ul>
-              </li>
-              <div id="sentiment_jbcs" class="collapse">
-                <b>Abstract:</b> The constant expansion of e-commerce recently boosted due to the coronavirus pandemic, has led to a massive increase in online shopping, made by increasingly demanding customers, who seek comments and reviews on the Web to assist in decision-making regarding the purchase of products. In these reviews, part of the opinions found are comparisons, which contrast aspects expressing a preference for an object over others. However, this information is neglected by traditional sentiment analysis techniques and it is not applicable for comparisons, since they do not directly express positive or negative sentiment. In this context, despite efforts in the English language, almost no studies have been done to develop appropriate solutions that allow the analysis of comparisons in the Portuguese language. This work presented one of the first studies on comparative opinion in Portuguese and four main contributions, are (1) A hierarchical approach for detecting comparative opinions, which consists of an initial binary step, which subdivides the regular opinions from the comparatives, to further categorize the comparatives into the five opinion groups: (1) Non-Comparative; (2) Non-Equal Gradable; (3) Equative, (4) Superlative; and (5) Non-Gradable. The results are promising, reaching 87% of Macro-F1 and 0.94 of AUC (Compute Area Under the Curve) for the binary step, and 61% of Macro-F1 in multiple classes; (2) An lexicon algorithm to detect the entity expressed as preferred in comparative sentences, reaching 94% of Macro-F1 for Superlative; (3) Two new datasets with approximately 5,000 comparative and non-comparative sentences in Portuguese; and (4) a lexicon with words and expressions frequently used to make comparisons in the Portuguese language.
-              </div>
-            </ul>
-
+            
             <h3>Conference Publications </h3>
+            <ul class="list-inline">
+              <li>Us vs. Them: A Dataset of Political Othering in Brazilian WhatsApp Discourse [Awaiting Publication]
+                <ul>
+                  <li>
+                    <?= get_authors(array("daniel_kansaon", "fabricio_benevenuto", "diana_maynard")) ?>
+                  </li>
+                  <li> In Proceedings of the 37th ACM Conference on Hypertext and Social Media, London, England, 2026.
+                  </li>
+                  <li>
+                    <a href="#othering" data-toggle="collapse">
+                      <span class="badge badge-dark">Abstract</span>
+                    </a>
+                    <!-- <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/35857/38011" target="_blank">
+                      <span class="badge badge-danger">PDF</span>
+                    </a>
+                    <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/35857" target="_blank">
+                      <span class="badge badge-info">Link</span>
+                    </a>
+                    <a href="bibtex/icwsm_2025_coordination.bib" target="_blank">
+                      <span class="badge badge-secondary">BibTeX</span>
+                    </a> -->
+                  </li>
+                </ul>
+                </li>
+              <div id="othering" class="collapse">
+                <b>Abstract:</b> Political polarization is increasingly expressed through discursive strategies that construct moral and symbolic boundaries between ``us'' and ``them''. Among these strategies, othering is particularly important because it portrays sociopolitical groups as fundamentally different, inferior, or threatening. However, despite extensive research on hate speech and misinformation, othering remains less studied, partly due to the lack of annotated resources that capture this phenomenon. In this paper, we introduce a large-scale labeled dataset for political othering from Brazilian public WhatsApp groups. Starting from a manually annotated gold set, we develop an LLM-assisted annotation pipeline with systematic human validation, resulting in 8.5k labeled messages. Our analysis shows that othering is not limited to explicit insults or traditional hate-speech targets. Instead, it frequently targets ideological, partisan, and institutional opponents through negative affect and the discursive construction of group boundaries. These findings highlight political othering as a distinct dimension of harmful discourse in online environments.
+              </div>
+            </ul>
+
             <ul class="list-inline">
               <li>From Fake News to Real Protests: WhatsApp's Role in Brazilian Political Coordination
                 <ul>
@@ -354,7 +334,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
               </div>
             </ul>
             <ul class="list-inline">
-              <li>WhatsApp Monitor 2.0 – Monitoring Brazilian Political Groups on WhatsApp [Awaiting Publication] <i>(translated)</i>
+              <li>WhatsApp Monitor 2.0 – Monitoring Brazilian Political Groups on WhatsApp <i>(translated)</i>
                 <ul>
                   <li>
                     <?= get_authors(array("marcio_silva", "daniel_kansaon", "philipe_melo", "fabricio_benevenuto")) ?>
@@ -365,15 +345,15 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
                     <a href="#demo_monitor" data-toggle="collapse">
                       <span class="badge badge-dark">Abstract</span>
                     </a>
-                    <!-- <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/31354/33514" target="_blank">
+                    <a href="https://sol.sbc.org.br/index.php/sbbd_estendido/article/view/30780/30583" target="_blank">
                       <span class="badge badge-danger">PDF</span>
                     </a>
-                    <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/31354" target="_blank">
+                    <a href="https://sol.sbc.org.br/index.php/sbbd_estendido/article/view/30780/" target="_blank">
                       <span class="badge badge-info">Link</span>
                     </a>
-                    <a href="bibtex/icwsm_2024.bib" target="_blank">
+                    <a href="bibtex/demo_whatsapp.bib" target="_blank">
                       <span class="badge badge-secondary">BibTeX</span>
-                    </a> -->
+                    </a>
                   </li>
                 </ul>
                 </li>
@@ -432,9 +412,9 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
                     <a href="bibtex/telegram.bib" target="_blank">
                       <span class="badge badge-secondary">BibTeX</span>
                     </a>
-                    <a href="http://www.telegram-monitor.dcc.ufmg.br/" target="_blank">
+                    <!--<a href="http://www.telegram-monitor.dcc.ufmg.br/" target="_blank">
                       <span class="badge badge-primary">System</span>
-                    </a>
+                    </a> -->
                   </li>
                 </ul>
               </li>
@@ -472,9 +452,9 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
                     <a href="bibtex/webmedia_estendido.bib" target="_blank">
                       <span class="badge badge-secondary">BibTeX</span>
                     </a>
-                    <a href="http://www.whatsapp-monitor.dcc.ufmg.br" target="_blank">
+                    <!-- <a href="http://www.whatsapp-monitor.dcc.ufmg.br" target="_blank">
                       <span class="badge badge-primary">System</span>
-                    </a>
+                    </a> -->
                   </li>
                 </ul>
               </li>
@@ -576,7 +556,62 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
                 relations between close feelings present results less than 70% of accuracy.
               </div>
             </ul>
+            
+            <h3>Journal Publications </h3>
 
+            <ul class="list-inline">
+              <li>Analysis of Classification Algorithms for Detecting Emotions in Tweets in Brazilian Portuguese <i>(translated)</i>
+                <ul>
+                  <li> 
+                    <?= get_authors(array("daniel_kansaon", "michele_brandao", "saulo_pinto")) ?>
+                  </li>
+                  <li>ISys - Revista Brasileira de Sistemas de Informação, v. 12, p. 116-138, 2019.</li>
+                  <li>
+                    <a href="#political_leaning_journal" data-toggle="collapse">
+                      <span class="badge badge-dark">Abstract</span>
+                    </a>
+                    <a href="http://www.seer.unirio.br/isys/article/view/8229" target="_blank">
+                      <span class="badge badge-info">Link</span>
+                    </a>
+                    <a href="bibtex/isys.bib" target="_blank">
+                      <span class="badge badge-secondary">BibTeX</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <div id="political_leaning_journal" class="collapse">
+                <b>Abstract:</b> With increasing access to the Web, large amounts of content are produced daily. The study of such contents allows the discovery of new knowledge. In this sense, this work presents an analysis of algorithms that allow the detection of emotions in tweets in the Brazilian Portuguese language. Thus, ten algorithms are considered, from decision trees to classifiers based on Bayes model, addressing altogether, seven classes of emotions: sad, upset, love, happy, anger, envy and irony. The results of the experimental evaluation are better when classifying relationships of distinct emotions, reaching 85\% accuracy with a Naive Bayes algorithm. On the other hand, relations between close feelings present results inferior to 70\% of correctness in some cases. Moreover, Naive Bayes-based classification algorithms present efficient results in a variety of contexts, in addition to having consistent language-independent behavior.
+              </div>
+            </ul>
+
+            <ul class="list-inline">
+              <li>Mining Comparative Opinions in Portuguese: A Lexicon-based Approach
+                <ul>
+                  <li> 
+                    <?= get_authors(array("daniel_kansaon", "michele_brandao", "julio_reis", "fabricio_benevenuto")) ?>
+                  </li>
+                  <li>JBCS - Journal of the Brazilian Computer Society, 2024.</li>
+                  <li>
+                    <a href="#sentiment_jbcs" data-toggle="collapse">
+                      <span class="badge badge-dark">Abstract</span>
+                    </a>
+                    <a href="http://journals-sol.sbc.org.br/index.php/jbcs/article/view/2830/2955" target="_blank">
+                      <span class="badge badge-danger">PDF</span>
+                    </a>
+                    <a href="https://journals-sol.sbc.org.br/index.php/jbcs/article/view/2830" target="_blank">
+                      <span class="badge badge-info">Link</span>
+                    </a>
+                    <a href="bibtex/journal_comparative.bib" target="_blank">
+                      <span class="badge badge-secondary">BibTeX</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <div id="sentiment_jbcs" class="collapse">
+                <b>Abstract:</b> The constant expansion of e-commerce recently boosted due to the coronavirus pandemic, has led to a massive increase in online shopping, made by increasingly demanding customers, who seek comments and reviews on the Web to assist in decision-making regarding the purchase of products. In these reviews, part of the opinions found are comparisons, which contrast aspects expressing a preference for an object over others. However, this information is neglected by traditional sentiment analysis techniques and it is not applicable for comparisons, since they do not directly express positive or negative sentiment. In this context, despite efforts in the English language, almost no studies have been done to develop appropriate solutions that allow the analysis of comparisons in the Portuguese language. This work presented one of the first studies on comparative opinion in Portuguese and four main contributions, are (1) A hierarchical approach for detecting comparative opinions, which consists of an initial binary step, which subdivides the regular opinions from the comparatives, to further categorize the comparatives into the five opinion groups: (1) Non-Comparative; (2) Non-Equal Gradable; (3) Equative, (4) Superlative; and (5) Non-Gradable. The results are promising, reaching 87% of Macro-F1 and 0.94 of AUC (Compute Area Under the Curve) for the binary step, and 61% of Macro-F1 in multiple classes; (2) An lexicon algorithm to detect the entity expressed as preferred in comparative sentences, reaching 94% of Macro-F1 for Superlative; (3) Two new datasets with approximately 5,000 comparative and non-comparative sentences in Portuguese; and (4) a lexicon with words and expressions frequently used to make comparisons in the Portuguese language.
+              </div>
+            </ul>
+            
             <h3>Master's Thesis</h3>
             <ul class="list-inline">
               <li>Mining Comparative Opinions in Portuguese
@@ -672,7 +707,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
         </div>
         <div id="systems_apps" data-parent="#accordion" class="collapse">
           <div class="card-body">
-          <h4>Online Systems</h4>
+          <!--<h4>Online Systems</h4>
             <ul>
               <li>
                 <a href="http://www.eleicoes-sem-fake.dcc.ufmg.br/" target="_blank">
@@ -704,7 +739,7 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
                 </a> Analysis of Brazilian WhatsApp groups during the first three months of the pandemic in Brazil.
                 <br>
               </li>
-            </ul>
+            </ul>-->
             <h4>Datasets</h4>
             <ul>
               <li>
@@ -716,6 +751,11 @@ if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|
               <a href="https://zenodo.org/records/7017910" target="_blank">
                   <strong>Public WhatsApp groups from the Brazilian online repositories:</strong>
                 </a> Dataset with WhatsApp Brazilian public groups.
+              </li>
+              <li>
+              <a href="https://zenodo.org/records/21500268" target="_blank">
+                  <strong>Us vs. Them: A Dataset of Political Othering in Brazilian WhatsApp Discourse                  :</strong>
+                </a> Dataset with Political Othering messages.
               </li>
             </ul>
           </div>
